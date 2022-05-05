@@ -1,0 +1,103 @@
+.wishlist-header h1 {
+  text-align: center;
+  font-size: 50px;
+  color: black;
+  color: white;
+}
+.wishlist-tagline {
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  padding-top: 60px;
+}
+.wishlist-header {
+  background-color: #032541;
+}
+
+.wishlist-header h1 :hover {
+  text-decoration: solid;
+}
+
+.movieData_wish {
+  z-index: 99;
+  width: auto;
+  height: auto;
+  background-color: #032541;
+}
+
+.flexgrid_wish {
+  margin-top: 20px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  z-index: 999;
+  background-color: #032541;
+}
+
+.searchcard_wish {
+  width: 300px;
+  height: 100%;
+  background-color: inherit;
+  margin: 0 15px 40px;
+  flex-wrap: wrap;
+  text-align: center;
+  font-size: 10px;
+  padding-top: 20px;
+  border-radius: 40px;
+  z-index: 999;
+  margin-left: 0;
+}
+
+.img-wrapper_wish {
+  width: 80%;
+  border-radius: 40px;
+  height: 320px;
+  overflow: hidden;
+  margin-left: 30px;
+  cursor: pointer;
+  z-index: inherit;
+  border: 1px solid #ddd;
+}
+
+img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  z-index: inherit;
+}
+.searchcard_wish h5 {
+  font-size: 17px;
+  margin-top: 20px;
+  color: wheat;
+  margin-left: 10px;
+}
+
+.rating-box_wish {
+  width: 40px;
+  text-align: center;
+  height: 30px;
+  color: #17c476;
+  background-color: #2c2f5b;
+  justify-content: space-between;
+  float: right;
+  padding-top: 5px;
+}
+
+.movie-title-name h6 {
+  font-size: 17px;
+  margin-top: 30px;
+  width: 280px;
+  height: auto;
+  /* background-color: red; */
+  overflow: hidden;
+  color: whitesmoke;
+  text-align: center;
+  margin-left: 0px;
+}
+
+.remove-btn {
+  margin-top: 30px;
+  margin-left: 10px;
+}
